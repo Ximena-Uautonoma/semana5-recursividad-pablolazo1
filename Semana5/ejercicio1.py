@@ -10,8 +10,10 @@ def contar_ciclo(n):
     """
     Retorna una lista con los números desde 1 hasta n usando iteración.
     """
+    lista[]
     for i in range (1, n+1):
-        print(i)
+        lista.append(i)
+    return lista
 def contar_recursivo(n):
     if n>0:
         print(n)
