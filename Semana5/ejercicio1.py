@@ -10,7 +10,7 @@ def contar_ciclo(n):
     """
     Retorna una lista con los números desde 1 hasta n usando iteración.
     """
-    lista[]
+    lista=[]
     for i in range (1, n+1):
         lista.append(i)
     return lista
