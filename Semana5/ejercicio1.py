@@ -15,7 +15,7 @@ def contar_ciclo(n):
         lista.append(i)
     return lista
 def contar_recursivo(n):
-    if n>0:
-        print(n)
-        contar_recursivo(n-1)
-    
+    if n==1:
+        return [1]
+    else:
+        return contar_recursivo(n-1)+[n]
